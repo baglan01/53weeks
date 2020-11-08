@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22705790-7727-4a8c-b5cc-05ec092df063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/create.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604739173526</updated>
       <workItem from="1604739174563" duration="657000" />
-      <workItem from="1604745522023" duration="1390000" />
+      <workItem from="1604745522023" duration="2117000" />
+      <workItem from="1604844605082" duration="2685000" />
     </task>
     <servers />
   </component>
@@ -56,9 +60,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="662" y="345" width="586" height="414" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604746037895">
+    <state x="662" y="345" width="586" height="414" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604844828269">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="662" y="345" width="586" height="414" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1604746037895" />
+    <state x="662" y="345" width="586" height="414" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1604844828269" />
   </component>
 </project>
