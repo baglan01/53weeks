@@ -26,6 +26,8 @@
     "cross-env": "^7.0.2",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglifyjs": "^0.6.2",
     "jquery": "^3.5.1",
     "mongoose": "^5.10.13",
     "static-asset": "^0.6.0"
