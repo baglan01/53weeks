@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22705790-7727-4a8c-b5cc-05ec092df063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/js/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/javascripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout/sidebar.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/sidebar.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -76,7 +72,7 @@
       <workItem from="1604924710332" duration="90000" />
       <workItem from="1604925850272" duration="820000" />
       <workItem from="1605167620625" duration="15532000" />
-      <workItem from="1605231675195" duration="4114000" />
+      <workItem from="1605231675195" duration="7710000" />
     </task>
     <servers />
   </component>
