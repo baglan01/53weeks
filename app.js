@@ -9,7 +9,7 @@ const MongoStore = require('connect-mongo')(session);
 
 const config = require('./config');
 const routes = require('./routes');
-
+const mocks = require('./mocks')
 
 // database
 mongoose.Promise = global.Promise;
@@ -22,6 +22,7 @@ mongoose.connection
     .once('open', () => {
         const info = mongoose.connections[0];
         console.log(`Connected to ${info.host}:${info.port}/${info.name}`);
+        // require('./mocks')();
     });
 
 mongoose.connect(config.MONGO_URL, {
