@@ -13,6 +13,7 @@ function posts(req, res) {
     models.Post.find({})
         .skip(perPage * page - perPage)
         .limit(perPage)
+        .sort({updatedAt: -1})
         .then(posts => {
             models.Post.count()
                 .then(count => {
