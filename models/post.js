@@ -28,7 +28,7 @@ const schema = new Schema(
 
 schema.statics = {
     incCommentCount(postId) {
-        return thisвеб.findByIdAndUpdate(
+        return this.findByIdAndUpdate(
             postId,
             { $inc: { commentCount: 1 } },
             { new: true }

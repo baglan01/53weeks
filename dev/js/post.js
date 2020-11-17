@@ -1,12 +1,7 @@
 /* eslint-disable no-undef */
 $(function() {
-    // eslint-disable-next-line
-    var editor = new MediumEditor('#post-body', {
-        placeholder: {
-            text: '',
-            hideOnClick: true
-        }
-    });
+
+
 
     // remove errors
     function removeErrors() {
@@ -26,7 +21,7 @@ $(function() {
 
         var data = {
             title: $('#post-title').val(),
-            body: $('#post-body').html()
+            body: $('#post-body').val()
         };
 
         $.ajax({
