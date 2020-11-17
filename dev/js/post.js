@@ -1,8 +1,5 @@
 /* eslint-disable no-undef */
 $(function() {
-
-
-
     // remove errors
     function removeErrors() {
         $('.post-form p.error').remove();
@@ -41,6 +38,27 @@ $(function() {
             } else {
                 // $('.register h2').after('<p class="success">Отлично!</p>');
                 $(location).attr('href', '/');
+            }
+        });
+    });
+
+    // upload
+    $('#fileinfo').on('submit', function(e) {
+        e.preventDefault();
+
+        var formData = new FormData(this);
+
+        $.ajax({
+            type: 'POST',
+            url: '/upload/image',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function(r) {
+                console.log(r);
+            },
+            error: function(e) {
+                console.log(e);
             }
         });
     });

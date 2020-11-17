@@ -36,13 +36,22 @@
                 </div>
             </form>
         <% } else { %>
-            <p>
-                Hello , <%= user.login %>! <a href="/api/auth/logout">logout , only if u r shit</a>
-            </p>
+            <ul>
+                <li>Привет,
+                    <a href="/users/<%= user.login %>">
+                        <%= user.login %>
+                    </a>!</li>
+                <li>
+                    <a href="/post/add">Добавить пост</a>
+                </li>
+                <li>
+                    <a href="/api/auth/logout">Выйти</a>
+                </li>
+            </ul>
         <% } %>
 
     </div>
     <div class="box">
-        <a href="/post/add">Add</a>
+        box
     </div>
 </div>

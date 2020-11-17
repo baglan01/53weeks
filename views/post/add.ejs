@@ -1,5 +1,4 @@
 <%- include('../layout/header.ejs')%>
-
 <div class="main">
     <div class="container">
         <div class="content add-post">
@@ -19,6 +18,12 @@
                     <button class="publish-button">Опубликовать</button>
                 </div>
             </form>
+
+            <form method="POST" enctype="multipart/form-data" id="fileinfo">
+                <input type="file" name="file" id="file" required />
+                <button class="upload-button">Загрузить</button>
+            </form>
+
         </div>
 
         <%- include('../layout/sidebar.ejs')%>

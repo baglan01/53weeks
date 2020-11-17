@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22705790-7727-4a8c-b5cc-05ec092df063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/models/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/upload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/js/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/js/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/scss/components/_comments.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/components/_comments.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/scss/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/_main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/javascripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/archive/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/archive/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout/comments.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/comments.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout/sidebar.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/sidebar.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/post/add.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post/add.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -41,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../53weeks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backup/Memento" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,7 +83,8 @@
       <workItem from="1605489692632" duration="226000" />
       <workItem from="1605575299852" duration="5537000" />
       <workItem from="1605581084127" duration="382000" />
-      <workItem from="1605614421448" duration="1933000" />
+      <workItem from="1605614421448" duration="3032000" />
+      <workItem from="1605617648276" duration="2176000" />
     </task>
     <servers />
   </component>
@@ -98,10 +100,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="302" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605208982696" />
-    <state x="743" y="311" width="424" height="482" key="FileChooserDialogImpl" timestamp="1605578466350">
+    <state x="743" y="311" width="424" height="482" key="FileChooserDialogImpl" timestamp="1605617345523">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="311" width="424" height="482" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605578466350" />
+    <state x="743" y="311" width="424" height="482" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605617345523" />
     <state x="652" y="138" width="616" height="831" key="find.popup" timestamp="1605575967219">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
