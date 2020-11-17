@@ -8,7 +8,7 @@
   height: $headerHeight;
   font-size: 15px;
   background-color: $primaryColor;
-  opacity: 0.9;
+  opacity: 1;
   z-index: 1000;
 
   .container {
@@ -18,7 +18,7 @@
     padding: 0 $freeSpace 0 $freeSpace;
 
     .logo {
-      background-image: url('../images/logo.png');
+      background-image: url('../images/53weeks.png');
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;

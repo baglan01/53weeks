@@ -11,6 +11,8 @@ const config = require('./config');
 const routes = require('./routes');
 const mocks = require('./mocks')
 
+
+
 // database
 mongoose.Promise = global.Promise;
 mongoose.set('debug', config.IS_PRODUCTION);
@@ -29,6 +31,7 @@ mongoose.connect(config.MONGO_URL, {
     useUnifiedTopology: true,
     useNewUrlParser: true
 });
+
 
 
 // express
@@ -57,11 +60,11 @@ app.use(
     express.static(path.join(__dirname, 'node_modules', 'jquery', 'dist'))
 );
 
-// routers
-app.use('/' , routes.archive);
+// routes
+app.use('/', routes.archive);
 app.use('/api/auth', routes.auth);
-app.use('/post' , routes.post);
-
+app.use('/post', routes.post);
+app.use('/comment', routes.comment);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
