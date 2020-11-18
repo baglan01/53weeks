@@ -10,8 +10,6 @@ const MongoStore = require('connect-mongo')(session);
 const config = require('./config');
 const routes = require('./routes');
 
-
-
 // database
 mongoose.Promise = global.Promise;
 mongoose.set('debug', config.IS_PRODUCTION);
@@ -30,7 +28,6 @@ mongoose.connect(config.MONGO_URL, {
     useUnifiedTopology: true,
     useNewUrlParser: true
 });
-
 
 // express
 const app = express();
@@ -53,6 +50,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(staticAsset(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/uploads', express.static(path.join(__dirname, config.DESTINATION)));
 app.use(
     '/javascripts',
     express.static(path.join(__dirname, 'node_modules', 'jquery', 'dist'))

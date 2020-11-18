@@ -22,12 +22,12 @@
                 </div>
                 <div class="bottom">
                     <div class="author">
-                        Автор:
+                        Author:
                         <a href="/users/<%=posts[i].owner.login %>">
                             <%=posts[i].owner.login %>
                         </a>
                     </div>
-                    <a href="/posts/<%=posts[i].url %>#<%=posts[i].id %>">Комментарии:
+                    <a href="/posts/<%=posts[i].url %>#<%=posts[i].id %>">Comments:
                         <%=posts[i].commentCount %>
                     </a>
                 </div>
@@ -36,13 +36,13 @@
 
             <div class="pagination">
                 <% if (current > 2) { %>
-                    <a class="new" href="/archive/<%= Number(current) - 1 %>">← К новым</a>
+                    <a class="new" href="/archive/<%= Number(current) - 1 %>">← To new</a>
                 <% } %>
                 <% if (current == 2) { %>
-                    <a class="new" href="/">← На главную</a>
+                    <a class="new" href="/">← To main</a>
                 <% } %>
                 <% if (pages > 0 && current < pages) { %>
-                    <a class="old" href="/archive/<%= Number(current) + 1 %>">К старым →</a>
+                    <a class="old" href="/archive/<%= Number(current) + 1 %>">To old →</a>
                 <% } %>
 
             </div>

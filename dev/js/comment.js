@@ -62,7 +62,7 @@ $(function() {
             console.log(data);
             if (!data.ok) {
                 if (data.error === undefined) {
-                    data.error = 'Неизвестная ошибка!';
+                    data.error = 'Unknown error!';
                 }
                 $(commentForm).prepend('<p class="error">' + data.error + '</p>');
             } else {
@@ -71,7 +71,7 @@ $(function() {
                     data.login +
                     '">' +
                     data.login +
-                    '</a><spam class="date">Только что</spam></div>' +
+                    '</a><spam class="date">Just now</spam></div>' +
                     data.body +
                     '</li></ul>';
 

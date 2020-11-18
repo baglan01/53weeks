@@ -150,10 +150,12 @@ $(function() {
     });
 
     // upload
-    $('#fileinfo').on('submit', function(e) {
-        e.preventDefault();
+    $('#file').on('change', function() {
+        // e.preventDefault();
 
-        var formData = new FormData(this);
+        var formData = new FormData();
+        formData.append('postId', $('#post-id').val());
+        formData.append('file', $('#file')[0].files[0]);
 
         $.ajax({
             type: 'POST',
@@ -161,8 +163,13 @@ $(function() {
             data: formData,
             processData: false,
             contentType: false,
-            success: function(r) {
-                console.log(r);
+            success: function(data) {
+                console.log(data);
+                $('#fileinfo').prepend(
+                    '<div class="img-container"><img src="/uploads' +
+                    data.filePath +
+                    '" alt="" /></div>'
+                );
             },
             error: function(e) {
                 console.log(e);
@@ -172,6 +179,7 @@ $(function() {
 });
 
 /* eslint-enable no-undef */
+
 /* eslint-disable no-undef */
 $(function() {
     var commentForm;
@@ -236,7 +244,7 @@ $(function() {
             console.log(data);
             if (!data.ok) {
                 if (data.error === undefined) {
-                    data.error = 'Неизвестная ошибка!';
+                    data.error = 'Unknown error!';
                 }
                 $(commentForm).prepend('<p class="error">' + data.error + '</p>');
             } else {
@@ -245,7 +253,7 @@ $(function() {
                     data.login +
                     '">' +
                     data.login +
-                    '</a><spam class="date">Только что</spam></div>' +
+                    '</a><spam class="date">Just now</spam></div>' +
                     data.body +
                     '</li></ul>';
 

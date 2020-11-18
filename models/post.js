@@ -5,8 +5,7 @@ const Schema = mongoose.Schema;
 const schema = new Schema(
     {
         title: {
-            type: String,
-            required: true
+            type: String
         },
         body: {
             type: String
@@ -27,7 +26,13 @@ const schema = new Schema(
         commentCount: {
             type: Number,
             default: 0
-        }
+        },
+        uploads: [
+            {
+                type: Schema.Types.ObjectId,
+                ref: 'Upload'
+            }
+        ]
     },
     {
         timestamps: true
